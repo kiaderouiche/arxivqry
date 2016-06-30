@@ -5,7 +5,6 @@ VERSION = $$(git describe --tags --always --dirty) ($$(git name-rev --name-only 
 BUILD_FLAGS = -ldflags "\
 	      -X main.Version \"$(VERSION)\" \
 	      "
-
 build: deps
 	go build $(VERBOSE_FLAG) $(BUILD_FLAGS)
 
