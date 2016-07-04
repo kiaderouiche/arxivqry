@@ -1,16 +1,19 @@
 package commands
 
 import (
-"github.com/urfave/cli"
+	"github.com/urfave/cli"
 )
 
 var Commands = []cli.Command{
 	{
-		Name: "",
-		Usage: "",
-		Action: 
+		Name:   "exp-run",
+		Usage:  "Expriment running",
+		Action: Exprun,
 		Flags: []cli.Flag{
-
-		}
-	}
+			cli.StringFlag{
+				Name:  "test, t",
+				Value: "Run",
+			},
+		},
+	},
 }
