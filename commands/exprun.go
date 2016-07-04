@@ -1,4 +1,4 @@
-package arxivcmd
+package commands
 
 import (
 	"fmt"
