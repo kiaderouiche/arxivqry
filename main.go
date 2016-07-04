@@ -1,19 +1,23 @@
 package main
 
 import (
-	"github.com/urfave/cli"
 	"os"
+
+	"github.com/kiaderouiche/arxivquery/commands"
+	"github.com/urfave/cli"
 )
 
 var (
 	_appName  string = "arxquery"
-	_appUsage string = ""
+	_appUsage string = "experimental arxivprog!"
 )
 
 func main() {
 
 	app := cli.NewApp()
 	app.Name = _appName
-	app.Usage =
-		app.Run(os.Args)
+	app.Usage = _appUsage
+
+	app.Commands = commands.Commands
+	app.Run(os.Args)
 }
