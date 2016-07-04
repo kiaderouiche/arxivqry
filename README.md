@@ -3,5 +3,7 @@ arxivquery: Search http://www.arXiv.org from the command line. Easily open as UR
 
 # Installation
 
+$ go get -u github.com/kiaderouiche/arxivquery
+
 # Usage
 
