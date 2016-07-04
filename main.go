@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/kiaderouiche/arxivquery/commands"
+	"github.com/kiaderouiche/arxivqry/commands"
 	"github.com/urfave/cli"
 )
 
