@@ -1,3 +1,4 @@
+##Version 1.0
 ERBOSE_FLAG = $(if $(VERBOSE),-v)
 
 VERSION = $$(git describe --tags --always --dirty) ($$(git name-rev --name-only HEAD))
