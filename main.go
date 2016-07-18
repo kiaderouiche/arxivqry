@@ -10,7 +10,7 @@ import (
 var (
 	_appName    string = "arxivqry"
 	_appUsage   string = "Get publication metadata from arxiv.org"
-	_appVersion string = "0.0.1pre1"
+	_appVersion string = "0.0.1pre2"
 	_appAuthor  string = "K.I.A.Derouiche"
 	_appEmail   string = "kamel.derouiche@gmail.com"
 )
