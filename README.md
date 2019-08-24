@@ -7,3 +7,5 @@ $ go get -u github.com/kiaderouiche/arxivqry
 
 # Usage
 
+$ arxivqry bib 1102.0001v2
+
