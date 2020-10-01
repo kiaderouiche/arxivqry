@@ -1,7 +1,5 @@
-module github.com/kiaderouiche/arxivqry
+module arxivqry
 
-go 1.12
+go 1.15
 
-require (
-	github.com/urfave/cli v1.21.0
-)
+require github.com/urfave/cli v1.22.4
